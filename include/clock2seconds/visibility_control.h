@@ -28,5 +28,5 @@
   #define CLOCK2SECONDS_PUBLIC_TYPE
 #endif
 #endif  // CLOCK2SECONDS__VISIBILITY_CONTROL_H_
-// Generated 26-Nov-2024 14:00:43
+// Generated 26-Nov-2024 15:29:24
 // Copyright 2019-2020 The MathWorks, Inc.

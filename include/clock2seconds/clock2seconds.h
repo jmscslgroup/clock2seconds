@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'clock2seconds'.
 //
-// Model version                  : 1.4
+// Model version                  : 1.5
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 14:00:19 2024
+// C/C++ source code generated on : Tue Nov 26 15:29:13 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -34,7 +34,7 @@
 
 // Block signals (default storage)
 struct B_clock2seconds_T {
-  SL_Bus_clock2seconds_std_msgs_Time In1;// '<S4>/In1'
+  SL_Bus_clock2seconds_rosgraph_msgs_Clock In1;// '<S4>/In1'
 };
 
 // Block states (default storage) for system '<Root>'
@@ -45,11 +45,11 @@ struct DW_clock2seconds_T {
 
 // Parameters (default storage)
 struct P_clock2seconds_T_ {
-  SL_Bus_clock2seconds_std_msgs_Time Out1_Y0;// Computed Parameter: Out1_Y0
-                                                //  Referenced by: '<S4>/Out1'
+  SL_Bus_clock2seconds_rosgraph_msgs_Clock Out1_Y0;// Computed Parameter: Out1_Y0
+                                                      //  Referenced by: '<S4>/Out1'
 
-  SL_Bus_clock2seconds_std_msgs_Time Constant_Value;// Computed Parameter: Constant_Value
-                                                       //  Referenced by: '<S3>/Constant'
+  SL_Bus_clock2seconds_rosgraph_msgs_Clock Constant_Value;// Computed Parameter: Constant_Value
+                                                             //  Referenced by: '<S3>/Constant'
 
   SL_Bus_clock2seconds_std_msgs_Float64 Constant_Value_j;// Computed Parameter: Constant_Value_j
                                                             //  Referenced by: '<S1>/Constant'

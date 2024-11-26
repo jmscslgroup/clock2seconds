@@ -20,6 +20,7 @@ endif()
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
+  rosgraph_msgs
 )
 ## The catkin_package macro generates cmake config files for your package
 ## Declare things to be passed to dependent projects
@@ -30,6 +31,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   CATKIN_DEPENDS
   roscpp
+  rosgraph_msgs
   std_msgs
   INCLUDE_DIRS include
 )
@@ -123,4 +125,4 @@ add_custom_command(
                    ARGS -E copy ${PROJECT_SOURCE_DIR}/src/${file_i} ${CATKIN_DEVEL_PREFIX}/clock2seconds_ert_rtw/${file_i}
 				   )
 endforeach(file_i)
-# Generated on Tue Nov 26 14:00:43 2024
+# Generated on Tue Nov 26 15:29:24 2024

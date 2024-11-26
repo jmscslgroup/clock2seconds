@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'clock2seconds'.
 //
-// Model version                  : 1.4
+// Model version                  : 1.5
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 14:00:19 2024
+// C/C++ source code generated on : Tue Nov 26 15:29:13 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)

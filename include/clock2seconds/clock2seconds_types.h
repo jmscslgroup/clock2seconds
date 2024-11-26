@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'clock2seconds'.
 //
-// Model version                  : 1.4
+// Model version                  : 1.5
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 14:00:19 2024
+// C/C++ source code generated on : Tue Nov 26 15:29:13 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -42,14 +42,14 @@ struct SL_Bus_clock2seconds_ros_time_Time
 
 #endif
 
-#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_clock2seconds_std_msgs_Time_
-#define DEFINED_TYPEDEF_FOR_SL_Bus_clock2seconds_std_msgs_Time_
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_clock2seconds_rosgraph_msgs_Clock_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_clock2seconds_rosgraph_msgs_Clock_
 
-// MsgType=std_msgs/Time
-struct SL_Bus_clock2seconds_std_msgs_Time
+// MsgType=rosgraph_msgs/Clock
+struct SL_Bus_clock2seconds_rosgraph_msgs_Clock
 {
   // MsgType=ros_time/Time
-  SL_Bus_clock2seconds_ros_time_Time Data;
+  SL_Bus_clock2seconds_ros_time_Time Clock_;
 };
 
 #endif

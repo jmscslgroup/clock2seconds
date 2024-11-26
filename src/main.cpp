@@ -3,9 +3,9 @@
 //
 // Code generated for Simulink model 'clock2seconds'.
 //
-// Model version                  : 1.4
+// Model version                  : 1.5
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 14:00:37 2024
+// C/C++ source code generated on : Tue Nov 26 15:29:22 2024
 //
 
 #include <stdio.h>

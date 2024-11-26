@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'clock2seconds'.
 //
-// Model version                  : 1.4
+// Model version                  : 1.5
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 14:00:19 2024
+// C/C++ source code generated on : Tue Nov 26 15:29:13 2024
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -33,8 +33,8 @@ RT_MODEL_clock2seconds_T *const clock2seconds_M = &clock2seconds_M_;
 // Model step function
 void clock2seconds_step(void)
 {
+  SL_Bus_clock2seconds_rosgraph_msgs_Clock b_varargout_2;
   SL_Bus_clock2seconds_std_msgs_Float64 rtb_BusAssignment;
-  SL_Bus_clock2seconds_std_msgs_Time b_varargout_2;
   boolean_T b_varargout_1;
 
   // Outputs for Atomic SubSystem: '<Root>/Subscribe'
@@ -58,8 +58,8 @@ void clock2seconds_step(void)
   //   Product: '<Root>/Divide'
   //   Sum: '<Root>/Add'
 
-  rtb_BusAssignment.Data = clock2seconds_B.In1.Data.Nsec /
-    clock2seconds_P.Constant_Value_f + clock2seconds_B.In1.Data.Sec;
+  rtb_BusAssignment.Data = clock2seconds_B.In1.Clock_.Nsec /
+    clock2seconds_P.Constant_Value_f + clock2seconds_B.In1.Clock_.Sec;
 
   // Outputs for Atomic SubSystem: '<Root>/Publish'
   // MATLABSystem: '<S2>/SinkBlock'
